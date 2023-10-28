@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-image: url("../compimages/starter-code/assets/technology/background-technology-desktop.jpg")  ;
+    position: absolute; */
+    font-family: Bellefair, sans-serif;
+}
+.homediv1 {
+    /* color: white; */
+}
+
+.mothernav {
+    /* border: solid 1px white; */
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    min-width: 80px;
+}
+.logomotherdiv{
+    /* margin-top: 3rem; */
+    /* border: solid 1px blue; */
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+.homelidiv {
+    /* border: solid 1px white; */
+    min-width: 940px;
+    min-height: 70px;
+    /* margin-top: px; */
+    margin-left: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* backdrop-filter: blur(150px); */
+    
+}
+
+.homelidiv1{
+    /* border: solid 1px white; */
+    /* margin-right: 350px; */
+    /* z-index: 10; */
+}
+.homelidiv2{
+    /* border: solid 1px white; */
+    min-height: 70px;
+    min-width: 833px;
+    margin-left: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(151, 151, 151, 0.2);
+    backdrop-filter: blur(150px);
+
+
+}
+
+.homeli {
+    /* opacity: 0.2; */
+    /* align-items: center; */
+    /* margin-top: 2rem;
+    margin-left: 10rem; */
+    /* border: solid 1px white; */
+    min-height: 70px;
+    padding-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: inherit;
+    /* align-items: center; */
+}
+ul {
+    color: white ;
+    margin-left: 65px;
+    /* font-weight: lighter; */
+    /* display: flex;
+    justify-content: space-around; */
+}
+.spanlist {
+    font-weight:bolder;
+}
+
+.straightline {
+    /* border: solid 1px white; */
+    min-width: 480px;
+    opacity: 0.5;
+    margin-left: -310px;
+    /* position: absolute; */
+
+    /* margin-left: 5rem; */
+    /* background-color: white ; */
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#active{
+    
+}
+
+#active:hover {
+    /* border: solid 1px white; */
+    cursor:pointer;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 3px white;
+}
+.technologybodydiv{
+color: white;
+}
+.firstdiv{
+    /* border: solid 1px white; */
+    max-width: 80rem;
+    margin-left: 158px;
+    margin-top: 50px;
+}
+.spacelaunchparagraph{
+    font-size:x-large;
+}
+.slp1{
+    color: rgb(66, 65, 65);
+}
+
+.slp2{
+
+}
+
+.seconddiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    max-width: 80rem;
+    margin-left: 158px;
+}
+#circlenumber:hover{
+    background-color: rgb(66, 65, 65);
+    cursor: pointer;
+}
+
+.circle2{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#circlenumber{
+    border: solid 1px white;
+    border-radius: 50% ;
+    padding: 20px 29px;
+    font-size: x-large;
+}
+.circle1{
+    background-color: white;
+    color: rgb(1, 1, 25);
+}
+.section2{
+    max-width: 365px;
+    justify-content: space-between;   
+    margin-right: 150px;
+    line-height: 25px;
+}
+.lvp {
+    margin-top: 18px;
+    margin-bottom: 26px;
+    min-width: 470px;
+    font-size: 54px;
+}
+
+p {
+    min-width: 420px;
+    font-size:20px;
+}
+.section3{
+
+}
+.techpageimage {
+    max-height: 500px;
+    min-width: 520px;
+}

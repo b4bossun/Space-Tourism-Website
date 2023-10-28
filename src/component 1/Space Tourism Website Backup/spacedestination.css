@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("./starter-code/assets/destination/background-destination-desktop.jpg")  ;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    font-family: "Bellefair", sans-serif;
+}
+.homediv1 {
+    /* color: white; */
+}
+
+.mothernav {
+    /* border: solid 1px white; */
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    min-width: 80px;
+}
+.logomotherdiv{
+    /* margin-top: 3rem; */
+    /* border: solid 1px blue; */
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+
+.homelidiv {
+    /* border: solid 1px white; */
+    min-width: 940px;
+    min-height: 70px;
+    /* margin-top: px; */
+    margin-left: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* backdrop-filter: blur(150px); */
+    
+}
+
+.homelidiv1{
+    /* border: solid 1px white; */
+    /* margin-right: 350px; */
+    /* z-index: 10; */
+}
+
+.homelidiv2{
+    /* border: solid 1px white; */
+    min-height: 70px;
+    min-width: 833px;
+    margin-left: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(151, 151, 151, 0.2);
+    backdrop-filter: blur(150px);
+
+
+}
+
+.homeli {
+    /* opacity: 0.2; */
+    /* align-items: center; */
+    /* margin-top: 2rem;
+    margin-left: 10rem; */
+    /* border: solid 1px white; */
+    min-height: 70px;
+    padding-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: inherit;
+    /* align-items: center; */
+}
+
+ul {
+    color: white ;
+    margin-left: 65px;
+    /* font-weight: lighter; */
+    /* display: flex;
+    justify-content: space-around; */
+}
+.spanlist {
+    font-weight:bolder;
+}
+
+.straightline {
+    /* border: solid 1px white; */
+    min-width: 480px;
+    opacity: 0.5;
+    margin-left: -310px;
+    /* position: absolute; */
+
+    /* margin-left: 5rem; */
+    /* background-color: white ; */
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+#active{
+    
+}
+
+#active:hover {
+    /* border: solid 1px white; */
+    cursor:pointer;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 3px white;
+}
+
+.motherdiv{
+    color: white;
+}
+.bodydiv1{
+
+}
+.pydparagraph{
+    margin-top: 50px;
+    margin-left: 158px;
+    font-size:x-large;
+}
+
+.pyd1{
+    color: rgb(66, 65, 65);
+}
+
+.pyd2{
+
+}
+
+.bodydiv2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-left: 140px;
+    align-items: center;
+    height: 600px;
+
+}
+
+.sectiondiv1{
+    /* min-height: 700px; */
+}
+
+.destinationimg{
+    border: solid 1px white;
+    height: 800px;
+    width: 800px;
+}
+
+.sectiondiv2{
+    min-width: 600px;
+}
+
+.listnav{
+
+}
+
+.list{
+    display: flex;
+}
+
+#destinationlist:hover{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 3px white;
+
+}
+
+.destinationlist1{
+    margin-left: 0px;
+}
+.destinationlist2{
+    margin-left: 14px;
+}
+.destinationlist3{
+    margin-left: 14px;
+}
+.destinationlist4{
+    margin-left: 14px;
+}
+
+.divbeforestroke{
+
+}
+
+.h1{
+    font-size: 100px;
+    margin-top: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    font-size: 20px;
+    max-width: 480px;
+    margin-bottom: 50px;
+}
+
+.stroke{
+    max-width: 480px;
+    margin-bottom: 30px;
+}
+
+.divafterstroke{
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+}
+
+.divafterstroke1{
+    display: grid;
+}
+
+.divafterstroke2{
+    display: grid;
+}
+
+.ad, .ett {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.adfig, .ettfig{
+    font-size:18px;
+    font-weight:bold ;
+
+}

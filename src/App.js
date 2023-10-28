@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import AppSpaceHome from './component 1/AppSpaceHome';
+import AppSpaceCrew from './component 1/AppSpaceCrew';
+import AppSpaceDestination from './component 1/AppSpaceDestination';
+import AppSpaceTechnology from './component 1/AppSpaceTechnology';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Router>
+        <Routes>
+          <Route path='/' element={<AppSpaceHome />}></Route>
+          <Route path='/appspacedestination' element={<AppSpaceDestination />}></Route>
+          <Route path='/appspacecrew' element={<AppSpaceCrew />}></Route>
+          <Route path='/appspacetechnology' element={<AppSpaceTechnology />}></Route>
+        </Routes>
+      </Router>
+    </>
+  )
 }
-
 export default App;
